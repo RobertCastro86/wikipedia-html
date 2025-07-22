@@ -1,44 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Imóvel - Enciclopédia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
-
-    <div class="bar"></div>
-
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <header>
+        <a href="#" class="logo">Enciclopédia</a>
+        <nav aria-label="Navegação principal">
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="#">Artigo</a></li>
+                <li><a href="#">Discussão</a></li>
+                <li><a href="#">Histórico</a></li>
+                <li><a href="#">Editar</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
 
-        <div class="main">
+    <main id="main-content">
+        <article>
+            <h1>Imóvel</h1>
             
-        </div>
+            <p>Um <strong>imóvel</strong> é um bem que não pode ser removido de seu local sem alteração de sua substância, sendo caracterizado pela sua aderência ao solo. No direito brasileiro, os imóveis são regulamentados pelo <a href="#">Código Civil</a> e constituem uma das principais formas de investimento e patrimônio das famílias.</p>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+            <section aria-labelledby="conceito-juridico">
+                <h2 id="conceito-juridico">Conceito Jurídico</h2>
+                <p>Segundo o <a href="#">Código Civil brasileiro</a>, em seu artigo 79, são considerados bens imóveis:</p>
+                <ol>
+                    <li>O solo e tudo quanto se lhe incorporar natural ou artificialmente</li>
+                    <li>Os direitos reais sobre imóveis e as ações que os asseguram</li>
+                    <li>O direito à sucessão aberta</li>
+                </ol>
+                <p>Esta definição estabelece a base legal para a caracterização de um bem como imóvel, diferenciando-o dos <a href="#">bens móveis</a>.</p>
+            </section>
 
-    <div class="footer">
+            <section aria-labelledby="classificacao">
+                <h2 id="classificacao">Classificação</h2>
+                
+                <h3>Por Natureza</h3>
+                <p>Os imóveis por natureza são aqueles que estão naturalmente fixados ao solo, como o próprio terreno, as <a href="#">árvores</a> e os <a href="#">recursos minerais</a>.</p>
 
-    </div>
+                <h3>Por Acessão</h3>
+                <p>São as construções e plantações realizadas pelo homem que se aderem permanentemente ao solo, como <a href="#">edifícios</a>, <a href="#">casas</a> e <a href="#">pontes</a>.</p>
+
+                <h3>Por Destinação</h3>
+                <p>Incluem os bens móveis que o proprietário mantém intencionalmente empregados na exploração industrial, aformoseamento ou comodidade do imóvel.</p>
+            </section>
+
+            <section aria-labelledby="mercado-imobiliario">
+                <h2 id="mercado-imobiliario">Mercado Imobiliário</h2>
+                <p>O <a href="#">mercado imobiliário</a> representa um dos setores mais importantes da economia brasileira, movimentando trilhões de reais anualmente. Este mercado envolve a compra, venda, locação e desenvolvimento de propriedades residenciais, comerciais e industriais.</p>
+                <p>Os fatores que influenciam o mercado imobiliário incluem <a href="#">taxas de juros</a>, <a href="#">inflação</a>, <a href="#">crescimento populacional</a> e <a href="#">políticas governamentais</a> como o programa <a href="#">Minha Casa Minha Vida</a>.</p>
+            </section>
+
+            <section aria-labelledby="registro-imoveis">
+                <h2 id="registro-imoveis">Registro de Imóveis</h2>
+                <p>O <a href="#">registro de imóveis</a> é o sistema público responsável por dar publicidade, autenticidade, segurança e eficácia aos atos jurídicos que envolvam bens imóveis. No Brasil, este sistema é regulamentado pela <a href="#">Lei 6.015/73</a>.</p>
+            </section>
+        </article>
+
+        <aside aria-label="Informações complementares">
+            <div class="info-box">
+                <h3>Imóvel</h3>
+                <table class="info-table">
+                    <tbody>
+                        <tr>
+                            <th>Tipo</th>
+                            <td>Bem jurídico</td>
+                        </tr>
+                        <tr>
+                            <th>Características</th>
+                            <td>Aderência ao solo</td>
+                        </tr>
+                        <tr>
+                            <th>Regulamentação</th>
+                            <td>Código Civil (Art. 79)</td>
+                        </tr>
+                        <tr>
+                            <th>Registro</th>
+                            <td>Cartório de Registro de Imóveis</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <section>
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="#">Bem móvel</a></li>
+                    <li><a href="#">Propriedade</a></li>
+                    <li><a href="#">Direito real</a></li>
+                    <li><a href="#">Código Civil</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Direito civil</a></li>
+                    <li><a href="#">Direito imobiliário</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Mercado imobiliário</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Esta página foi editada pela última vez às 14h35min de 22 de julho de 2025.</p>
+        <p>O texto está disponível sob a licença Creative Commons Atribuição-CompartilhaIgual; pode estar sujeito a condições adicionais.</p>
+    </footer>
 </body>
 </html>
